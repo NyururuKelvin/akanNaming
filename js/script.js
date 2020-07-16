@@ -25,3 +25,6 @@ function getGender() {
         }
     }
 }
+function getName() {
+    var male = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+}
