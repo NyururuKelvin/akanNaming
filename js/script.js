@@ -16,3 +16,12 @@ function getDay(){
         return day
     }
 }
+function getGender() {
+    var input = document.getElementById('gender');
+    for (var i = 0; i < input.length; i++) {
+        if (input[i]).checked) {
+            var gender = input[i].value;
+            return gender;
+        }
+    }
+}
