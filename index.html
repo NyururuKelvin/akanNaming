@@ -23,16 +23,16 @@
         <div class="container">
             <div class="jumbotron">
                 <h1>Ghanian Akan Naming system</h1>
-                <p>Try your name.</p>
+                <p>Ghanaian names (or Personal names in Ghana) consists of several given names and surnames based on the language of ethnic groups in Ghana including Akan, Mole-Dagombas, Ga, Ewe and Nzema. Frequently, children are given a "day name" which corresponds to the day in the week they were born. These day names have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. These names are also used among Ghanaians living abroad and among Africans living in the diaspora who wish to identify with their ancestral homeland. During the 18th-19th Century, the enslaved people from modern day Ghana in the Caribbean were referred to as Coromantees. Most day names among the Mole-Dagombas are usually given to the females and few are given to both sexes.</p>
             </div>
             <button>hide/show form</button><br><br>
             <form id="form">
                 <label for="year">Enter your Year:</label>
-                <input type="number" id="year" name="year" placeholder="YYYY" min="1" minlength="1" maxlength="4" required><br>
+                <input type="number" id="year" name="year" placeholder="YYYY" min="1" min-length="1" max-length="4" required><br>
                 <label for="month">Enter your Month:</label>
-                <input type="number" id="month" name="month" placeholder="MM" required><br>
+                <input type="number" id="month" name="month" placeholder="MM" min="1" max="12" max-length="2" required><br>
                 <label for="day">Enter your Day:</label>
-                <input type="number" id="day" name="lname"  placeholder="DD" required><br>
+                <input type="number" id="day" name="lname"  placeholder="DD" min="1" max="31" max-length="2" required><br>
                 <div>
                     <p>Choose your gender:</p>
                     <label for="male">Male</label>
@@ -50,6 +50,14 @@
                     <p id="post"></p>
                 </div>
             </form>
+            <div class="card">
+                <div class="card-title">
+                    <h2>Akan Names</h2>
+                </div>
+                <div class="card-body">
+                    <img src="/images/EBgix3CXUAA3BG2.jpg" alt="akan names image">
+                </div>
+            </div>
             <footer>
                 <p>All rights reserved</p>
             </footer>
