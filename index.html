@@ -7,7 +7,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>akanNaming</title>
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("p").hide(1000);
+          });
+        });
+        </script>
 </head>
 <body>
     <div class="container">
@@ -15,6 +23,15 @@
             <h1>Ghanian Akan Naming system</h1>
             <p>Try your name.</p>
         </div>
+        <form>
+            <label for="year">Enter your Year:</label>
+            <input type="number" id="year" name="year" placeholder="YYYY" required>
+            <label for="month">Enter your Month:</label>
+            <input type="number" id="month" name="month" placeholder="MM" required><br><br>
+            <label for="day">Enter your Day:</label>
+            <input type="day" id="day" name="lname"  placeholder="DD" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <script src="./js/script.js"></script>
 </body>
