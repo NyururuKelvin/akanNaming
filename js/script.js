@@ -37,3 +37,7 @@ function getName() {
         alert('Kindly Check your details and enter them correctly then retry');
     }
 }
+function result() {
+    var showResult = document.getElementById('form');
+    showResult.style.display = 'block';
+}
