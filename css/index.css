@@ -2,3 +2,14 @@
     background-image: url(/images/Animal-Crossing-New-Horizons-1080P-Wallpaper-2-1024x576.jpg);
     background-size: cover;
 }
+
+#form {
+    text-align: center;
+}
+
+.button{
+    align-items: center;
+}
+img{
+    width: 100%;
+}
