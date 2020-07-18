@@ -33,7 +33,7 @@ function getName() {
     if (getGender() === 'male' && getDay() >= 0) {
         document.getElementById('post').innerHTML = ('Hey ') + (document.getElementById('name').value) + ('!') + (' If you are a Ghanian Male') +(' born on a ') + day[getDay(name)] + (',') + (' Your Akan name would be ') + male[getDay(name)] + ('.');
     } else if (getGender() === 'female' && getDay() >= 0) {
-        document.getElementById('post').innerHTML = ('Hey ') + (document.getElementById('name').value) + ('!') + (' If you are a Ghanian') + (' born on a ') + day[getDay(name)] + (',') + (' Your Akan name would be ') + female[getDay(name)] + ('.');
+        document.getElementById('post').innerHTML = ('Hey ') + (document.getElementById('name').value) + ('!') + (' If you are a Ghanian Female') + (' born on a ') + day[getDay(name)] + (',') + (' Your Akan name would be ') + female[getDay(name)] + ('.');
     } else {
         alert('Kindly Check your details and enter them correctly then retry');
     }
