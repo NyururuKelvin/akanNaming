@@ -3,7 +3,7 @@
     background-size: cover;
 } 
 .jumbotron{
-    background-image: url(/images/images.jpeg);
+    background-image: url(images.jpeg);
 }
 
 #form {
