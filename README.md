@@ -11,21 +11,21 @@ The program is designed to generate Ghanian Indegenous names for male and female
 * Enter the Day.
 * Enter your Gender.
 ## Example
-Name: Kelvin
-Y.O.B: 2019
-Month: 09
-Day: 02
-Gender: Male
+* Name: Kelvin
+* Y.O.B: 2019
+* Month: 09
+* Day: 02
+* Gender: Male
 On clicking submit, a message appears below the form reading: Hey Kelvin! if you are a Ghanian Male born on Sunday, Your Akan name would be Kwasi.
 ## Live Demo
 https://nyururukelvin.github.io/akanNaming/
 ## Known Bugs
 So far there are no bugs.
 ## Technologies Used
-*Html for the skeleton.
-*Css for styling.
-*Bootstrap for responsiveness.
-*jQuery for Getting User Input.
+* Html for the skeleton.
+* Css for styling.
+* Bootstrap for responsiveness.
+* jQuery for Getting User Input.
 ## Support and contact details
 Kindly reach me through nyururukelvin9@gmail.com for any comments or insights.
 ### License
