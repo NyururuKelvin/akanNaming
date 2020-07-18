@@ -1,7 +1,7 @@
-/* .container-fluid{
-    background-image: url(/images/Animal-Crossing-New-Horizons-1080P-Wallpaper-2-1024x576.jpg);
+.container-fluid{
+    background-color: burlywood;
     background-size: cover;
-} */
+} 
 
 #form {
     text-align: center;
@@ -22,4 +22,9 @@ h2{
 p{
     text-align: center;
     color: black;
+}
+.result>p{
+    border: brown solid 1px;
+    padding: 5px;
+    background-color: cornsilk;
 }
