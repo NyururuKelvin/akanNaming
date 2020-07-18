@@ -1,5 +1,5 @@
 # akanNaming Program
-#### About the developer, By Nyururu Kelvin, 18/07/2020
+#### By Nyururu Kelvin, 18/07/2020
 
 ## Description
 The program is designed to generate Ghanian Indegenous names for male and females depending on the day of the week they were born, moreso the century and also the year, these days have further meanings concerning the persons soul and character. These names are also used among Ghanaians living abroad and among Africans living in the diaspora who wish to identify with their ancestral homeland. During the 18th-19th Century, the enslaved people from modern day Ghana in the Caribbean were referred to as Coromantees. Most day names among the Mole-Dagombas are usually given to the females and few are given to both sexes.
