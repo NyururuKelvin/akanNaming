@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet" type="text/css">
     <title>akanNaming</title>
@@ -18,7 +19,7 @@
                 <h1>Ghanian Akan Naming system</h1>
                 <p>Ghanaian names (or Personal names in Ghana) consists of several given names and surnames based on the language of ethnic groups in Ghana including Akan, Mole-Dagombas, Ga, Ewe and Nzema. Frequently, children are given a "day name" which corresponds to the day in the week they were born. These day names have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name. These names are also used among Ghanaians living abroad and among Africans living in the diaspora who wish to identify with their ancestral homeland. During the 18th-19th Century, the enslaved people from modern day Ghana in the Caribbean were referred to as Coromantees. Most day names among the Mole-Dagombas are usually given to the females and few are given to both sexes.</p>
             </div>
-            <div>
+            <div id="showResult">
                 <p>Fill the form below to discover your Akan name</p>
             </div>
             <form id="form" name="form">
@@ -33,20 +34,19 @@
                 <div>
                     <p>Choose your gender:</p>
                     <label for="male">Male</label>
-                    <input id ="male" name="gender" type="radio" value="male">
+                    <input id ="gender" name="gender" type="radio" value="male">
 
                     <label for="female">Female</label>
-                    <input id = "female" name="gender" type="radio" value="female">
+                    <input id = "gender" name="gender" type="radio" value="female">
                 </div>
                 <div>
                     <input type="Reset" class="reset">           
                     <button type="submit" onclick="getName();return false;" value="submit">submit</button>
-                </div><br>
-
-                <div>
-                    <p id="post"></p>
                 </div>
             </form>
+            <div>
+                <p id="post"></p>
+            </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card">
@@ -54,7 +54,7 @@
                             <h2>Akan Boys Names</h2>
                         </div>
                         <div class="card-body">
-                            <img src="images/unnamed.png" alt="akan names image">
+                            <img src="/images/unnamed.png" alt="akan names image">
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                             <h2>Akan Girls Names</h2>
                         </div>
                         <div class="card-body">
-                            <img src="images/Instagram_CFG_GHANA_week-namen_01-female-z-kader.jpg" alt="akan names image">
+                            <img src="/images/Instagram_CFG_GHANA_week-namen_01-female-z-kader.jpg" alt="akan names image">
                         </div>
                     </div>
                 </div>
