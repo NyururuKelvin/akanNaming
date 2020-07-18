@@ -1,7 +1,10 @@
 .container-fluid{
-    background-color: burlywood;
+    background-color: rgb(247, 215, 173);
     background-size: cover;
 } 
+.jumbotron{
+    background-image: url(/images/images.jpeg);
+}
 
 #form {
     text-align: center;
@@ -22,9 +25,22 @@ h2{
 p{
     text-align: center;
     color: black;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
 }
 .result>p{
     border: brown solid 1px;
     padding: 5px;
-    background-color: cornsilk;
+    background-color: rgb(96, 247, 239);
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    border-bottom: darkgoldenrod solid 2px;
+    text-align: center;
+    color: white;
+}
+.description{
+    color: rgb(10, 10, 10);
+    background-color: rgb(247, 215, 173);
 }
