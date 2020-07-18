@@ -1,9 +1,11 @@
 # akanNaming Program
-#### About the developer, 18/07/2020
-#### By Nyururu Kelvin
+#### About the developer, By Nyururu Kelvin, 18/07/2020
+
 ## Description
 The program is designed to generate Ghanian Indegenous names for male and females depending on the day of the week they were born, moreso the century and also the year, these days have further meanings concerning the persons soul and character. These names are also used among Ghanaians living abroad and among Africans living in the diaspora who wish to identify with their ancestral homeland. During the 18th-19th Century, the enslaved people from modern day Ghana in the Caribbean were referred to as Coromantees. Most day names among the Mole-Dagombas are usually given to the females and few are given to both sexes.
+
 ![picture](images/EBgix3CXUAA3BG2.jpg)
+
 ## BDD
 * Enter your Name.
 * Enter the Year of Birth.
@@ -16,7 +18,7 @@ The program is designed to generate Ghanian Indegenous names for male and female
 * Month: 09
 * Day: 02
 * Gender: Male
-On clicking submit, a message appears below the form reading: Hey Kelvin! if you are a Ghanian Male born on Sunday, Your Akan name would be Kwasi.
+* On clicking submit, a message appears below the form reading: Hey Kelvin! if you are a Ghanian Male born on Sunday, Your Akan name would be Kwasi.
 ## Live Demo
 https://nyururukelvin.github.io/akanNaming/
 ## Known Bugs
