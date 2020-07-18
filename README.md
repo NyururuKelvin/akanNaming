@@ -20,6 +20,7 @@ The program is designed to generate Ghanian Indegenous names for male and female
 * Gender: Male
 * On clicking submit, a message appears below the form reading: Hey Kelvin! if you are a Ghanian Male born on Sunday, Your Akan name would be Kwasi.
 ## Live Demo
+https://nyururukelvin.github.io/akanNaming/
 ## Set up Instructions
 * Access through cloning the repository
 * Navigate to akanNaming 
