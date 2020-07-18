@@ -22,8 +22,9 @@ The program is designed to generate Ghanian Indegenous names for male and female
 ## Live Demo
 https://nyururukelvin.github.io/akanNaming/
 ## Set up Instructions
-* Access through Live link
-* Gender: Male
+* Access through cloning the repository
+* Navigate to akanNaming 
+* Running the html file
 ## Known Bugs
 So far there are no bugs.
 ## Technologies Used
