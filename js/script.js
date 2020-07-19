@@ -5,7 +5,7 @@ function getDay(name){
     var century = year.slice(0, 1);
     var years = year.slice(2, 3);
 
-    if (year === '' || year.length > 4 ){
+    if (year === '' || year.length > 4 || year.length < 4){
         alert('Enter the year correctly');
     } else if(month === '' || month < 1 || month > 12) {
         alert('Enter the month correctly');

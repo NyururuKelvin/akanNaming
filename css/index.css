@@ -47,6 +47,9 @@ h1{
     background-color: rgb(247, 215, 173);
 }
 footer{
-    background-color: cadetblue;
-    margin-top: 15px;
+    background-color: rgb(69, 82, 87);
+    margin-top: 20px;
+}
+footer>p{
+    color: white;
 }
