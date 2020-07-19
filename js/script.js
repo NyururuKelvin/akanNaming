@@ -31,9 +31,9 @@ function getName() {
     var female = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
     var day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     if (getGender() === 'male' && getDay() >= 0) {
-        document.getElementById('post').innerHTML = ('Hey ') + (document.getElementById('name').value) + ('!') + (' If you are a Ghanian Male') +(' born on a ') + day[getDay(name)] + (',') + (' Your Akan name would be ') + male[getDay(name)] + ('.');
+        document.getElementById('post').innerHTML = ('Hey ') + (document.getElementById('name').value) + ('!') + (' If you were a Ghanian Male') +(' born on a ') + day[getDay(name)] + (',') + (' Your Akan name would be ') + male[getDay(name)] + ('.');
     } else if (getGender() === 'female' && getDay() >= 0) {
-        document.getElementById('post').innerHTML = ('Hey ') + (document.getElementById('name').value) + ('!') + (' If you are a Ghanian Female') + (' born on a ') + day[getDay(name)] + (',') + (' Your Akan name would be ') + female[getDay(name)] + ('.');
+        document.getElementById('post').innerHTML = ('Hey ') + (document.getElementById('name').value) + ('!') + (' If you were a Ghanian Female') + (' born on a ') + day[getDay(name)] + (',') + (' Your Akan name would be ') + female[getDay(name)] + ('.');
     } else {
         alert('Kindly Check your details and enter them correctly then retry');
     }
